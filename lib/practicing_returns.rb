@@ -12,4 +12,4 @@ end
 
 
 # binding.pry
- puts hello(["Tim", "Tom", "Jim"]) { |name| p "Hi, #{name}" }
+ hello(["Tim", "Tom", "Jim"]) { |name| p "Hi, #{name}" }
